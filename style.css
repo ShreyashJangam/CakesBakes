@@ -1,6 +1,17 @@
-#Registration>.container{
-  background-image: url(./1.png);
-  align-items: center;
+#Registration{
+    /* Set the background image */
+    background-image: url('./1.png'); 
+    /* Ensure it covers the whole viewport */
+    background-size: cover; 
+    /* Fixed position so it doesn't scroll */
+    background-attachment: fixed; 
+    /* Center the background image */
+    background-position: center; 
+    /* Make it take the full height of the viewport */
+    height: 100%; 
+    /* Ensure the image covers the whole width */
+    width: 100%; 
+    /* Add any additional styles you want */
 }
 
 #Registration #form3Example1cg{
@@ -17,9 +28,19 @@
   color: white !important;
 }
 
-#Login>.container{
+#Login{
   background-image: url(./1.png);
-  
+      /* Ensure it covers the whole viewport */
+      background-size: cover; 
+      /* Fixed position so it doesn't scroll */
+      background-attachment: fixed; 
+      /* Center the background image */
+      background-position: center; 
+      /* Make it take the full height of the viewport */
+      height: 100%; 
+      /* Ensure the image covers the whole width */
+      width: 100%; 
+      /* Add any additional styles you want */
 }
 
 #Login #form3Example1cg{
@@ -31,8 +52,19 @@
   border-bottom-right-radius: 20px;
 
 }
-#Home>.container{
+#Home{
   background-image: url(./2.png);
+      /* Ensure it covers the whole viewport */
+      background-size: cover; 
+      /* Fixed position so it doesn't scroll */
+      background-attachment: fixed; 
+      /* Center the background image */
+      background-position: center; 
+      /* Make it take the full height of the viewport */
+      height: 100%; 
+      /* Ensure the image covers the whole width */
+      width: 100%; 
+      /* Add any additional styles you want */
 }
 
 #Home>.container a{
@@ -41,8 +73,19 @@
   font-size: 20px;
 }
 
-#Pricing1>.container{
+#Pricing1{
   background-image: url(./3.png);
+      /* Ensure it covers the whole viewport */
+      background-size: cover; 
+      /* Fixed position so it doesn't scroll */
+      background-attachment: fixed; 
+      /* Center the background image */
+      background-position: center; 
+      /* Make it take the full height of the viewport */
+      height: 100%; 
+      /* Ensure the image covers the whole width */
+      width: 100%; 
+      /* Add any additional styles you want */
 }
 
 #Pricing1>.container a{
@@ -51,15 +94,9 @@
   font-size: 20px;
 }
 
-#Pricing2>.container{
-  background-image: url(./3.png);
-}
 
-#Pricing2>.container a{
-  color: #f1d6b0; 
-  text-decoration: underline;
-  font-size: 20px;
-}
+
+
 
 
 
